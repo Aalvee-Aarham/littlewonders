@@ -122,8 +122,8 @@ Economics from University of Dhaka.
 <div className="flex flex-wrap -m-4">
     <Member 
     staff_name="Ms. Shalina Akhter" 
-    postition="Manager of Little Wonders play and learn." 
-    joining_date="since 1st March, 2013 till now."
+    postition="Vice-Principal of Little Wonders play and learn." 
+    joining_date="since 1st March, 2012 till now."
     view="I strongly believe that as early educators we need to work on our ability to teach every child. If we can teach in their way they can actually learn."  
     />
     <Member 
@@ -137,12 +137,6 @@ Economics from University of Dhaka.
     postition="Executive Admin and Accounts Little Wonders play and learn " 
     joining_date="Since April 2015"
     view="I belief that every person should complete his/her work on time. So I am honest and serious with my work."  
-    />
-    <Member 
-    staff_name="Nazma Akther" 
-    postition="Speech and Language Therapist at Little Wonders play and learn centre." 
-    joining_date="Since June 2015"
-    view="I love my profession and I feel special as I try to help children and parents to listen to, and understand each other"  
     />
     <Member 
     staff_name="Kawser Akter" 
@@ -186,7 +180,7 @@ Economics from University of Dhaka.
    "  
     />
     <Member 
-    staff_name="Rashida Akter" 
+    staff_name="Rasida Akter" 
     postition="Executive, classroom Intervention Support Program" 
     joining_date="Since 15th July, 2019 to till today."
     view="I like to working with kids and I’m willing to serve my best for the betterment of the children with special need. "  

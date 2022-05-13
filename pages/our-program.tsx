@@ -104,10 +104,10 @@ export default function Feature(){
 </section>
   </div>
   </div>
-  <div className="relative bg-amber-900 ">
+  <div className="relative bg-orange-400 ">
     <Image
       layout="fill"
-      className="object-center object-cover opacity-5 pointer-events-none"
+      className="object-center object-cover opacity-10 pointer-events-none"
       src="/toy-bg.svg"
       alt="hero image"
     />

@@ -49,7 +49,7 @@ function Navhero() {
       <a className="inline-block px-6 py-1.5 bg-sky-600 text-white font-medium text-md rounded-full shadow-md hover:bg-sky-700 hover:shadow-lg focus:bg-sky-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-sky-800 active:shadow-lg transition duration-150 ease-in-out p-0" href="/our-program">  our program  </a>
     </li>
     <li className="nav-item p-2">
-      <a className="inline-block px-6 py-1.5 bg-sky-600 text-white font-medium text-md rounded-full shadow-md hover:bg-sky-700 hover:shadow-lg focus:bg-sky-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-sky-800 active:shadow-lg transition duration-150 ease-in-out p-0" href="/admission">  admission  </a>
+      <a className="inline-block px-6 py-1.5 bg-sky-600 text-white font-medium text-md rounded-full shadow-md hover:bg-sky-700 hover:shadow-lg focus:bg-sky-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-sky-800 active:shadow-lg transition duration-150 ease-in-out p-0" href="https://form.jotform.com/221313177735453">  admission  </a>
     </li>
     <li className="nav-item p-2">
       <a className="inline-block px-6 py-1.5 bg-sky-600 text-white font-medium text-md rounded-full shadow-md hover:bg-sky-700 hover:shadow-lg focus:bg-sky-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-sky-800 active:shadow-lg transition duration-150 ease-in-out p-0" href="/about-us">  About-us  </a>

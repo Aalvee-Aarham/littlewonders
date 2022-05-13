@@ -6,6 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLocationDot,faPhone,faEnvelope} from '@fortawesome/free-solid-svg-icons';
 
 import { solid, regular, brands } from '@fortawesome/fontawesome-svg-core/import.macro'
+import { Banner } from '../components/banner';
 
 export default function Contact() {
   useEffect(() => {
@@ -19,6 +20,10 @@ export default function Contact() {
           <link rel="icon" href="/whitelogo.svg" />
           
         </Head>
+        <Banner title="Our Branches" />
+        {/* <h1 className="max-w-lg my-6 pt-4 font-sans text-center text-4xl font-bold leading-none tracking-tight text-gray-900 sm:text-5xl md:mx-auto">
+            Our branches
+        </h1> */}
       <div >
         <div className="px-4 my-16 block rounded-lg shadow-lg bg-white py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
       <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
@@ -109,7 +114,7 @@ export default function Contact() {
                 Address
               </h6>
               <p className="text-sm text-gray-900">
-              House 56, Road 08, Sector 3, Uttara, Dhaka
+              House 56, Road 13, Sector 3, Uttara, Dhaka
               </p>
               <hr className="w-full my-6 border-gray-300" />
             </div>
@@ -146,7 +151,7 @@ export default function Contact() {
       <iframe width="100%" height="100%" className="absolute inset-0" frameBorder="0" title="map" 
       marginHeight={0} marginWidth={0} scrolling="no" 
       src="https://maps.google.com/maps?width=100%25&amp;height=600&amp
-      ;hl=en&amp;q=Road%2008,%20Sector%203,%20Uttara,%20Dhaka+(Little%20wonders
+      ;hl=en&amp;q=Road%2013,%20Sector%203,%20Uttara,%20Dhaka+(Little%20wonders
       %20Play%20and%20Learn)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
       style={{filter: "opacity(.6);"}}></iframe>
 
