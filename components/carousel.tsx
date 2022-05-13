@@ -48,9 +48,9 @@ export default function Carousel() {
   <div className="carousel-inner relative w-full overflow-hidden">
     <div className="carousel-item active relative float-left w-full">
       <Image
-        src="/ALBUM/Carousal/image (1).jpg"
+        src="/ALBUM/Carousal/image (1).webp"
         className="block w-full"
-          alt="Sunset"
+          alt="Album"
           width= {512}
           height= {256}
           loading="eager"
@@ -60,9 +60,9 @@ export default function Carousel() {
     </div>
     <div className="carousel-item relative float-left w-full">
       <Image
-        src="/ALBUM/Carousal/image (2).jpg"
+        src="/ALBUM/Carousal/image (2).webp"
         className="block w-full"
-          alt="Sunset"
+          alt="Album"
           width= {512}
           height= {256}
           loading="eager"
@@ -72,9 +72,9 @@ export default function Carousel() {
     </div>
     <div className="carousel-item relative float-left w-full">
       <Image
-        src="/ALBUM/Carousal/image (3).jpg"
+        src="/ALBUM/Carousal/image (3).webp"
         className="block w-full"
-          alt="Sunset"
+          alt="Album"
           width= {512}
           height= {256}
           loading="eager"
@@ -84,9 +84,9 @@ export default function Carousel() {
     </div>
     <div className="carousel-item relative float-left w-full">
       <Image
-        src="/ALBUM/Carousal/image (4).jpg"
+        src="/ALBUM/Carousal/image (4).webp"
         className="block w-full"
-          alt="Sunset"
+          alt="Album"
           width= {512}
           height= {256}
           loading="eager"
@@ -96,9 +96,9 @@ export default function Carousel() {
     </div>
     <div className="carousel-item relative float-left w-full">
       <Image
-        src="/ALBUM/Carousal/image (5).jpg"
+        src="/ALBUM/Carousal/image (5).webp"
         className="block w-full"
-          alt="Sunset"
+          alt="Album"
           width= {512}
           height= {256}
           loading="eager"

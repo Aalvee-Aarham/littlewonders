@@ -6,7 +6,7 @@ export const Banner = (prop: any) => {
     <Image
       layout="fill"
       className="object-center  object-cover pointer-events-none"
-      src="/banner.jpg"
+      src="/banner.webp"
       alt="hero image"
     />
    <div className="relative bg-black bg-opacity-50 z-1">

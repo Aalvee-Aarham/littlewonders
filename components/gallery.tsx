@@ -8,8 +8,8 @@ export default function Galleryimage(props: any) {
       <>
       <div className="flex flex-wrap w-1/3">
       <div className="w-full p-1 md:p-2">
-        <Image height="100%" width="100%" layout="responsive" alt="gallery" className="block object-cover object-center w-full h-full rounded-lg"
-          src={"/ALBUM/image ("+props.number+").jpg"}/>
+        <Image loading="lazy" height="100%" width="100%" layout="responsive" alt="gallery" className="block object-cover object-center w-full h-full rounded-lg"
+          src={"/ALBUM/image ("+props.number+").webp"}/>
       </div>
     </div>
         

@@ -21,7 +21,7 @@ module.exports = {
         'bermuda': '#78dcca',
       },
       backgroundImage: {
-        'hero-pattern': "url('/hero.png')",
+        'toy': "url('/toy-bg.svg')",
         'bannertest': "url('/banner.jpg')",
       }
     },

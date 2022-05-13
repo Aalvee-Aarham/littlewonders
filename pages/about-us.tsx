@@ -29,13 +29,13 @@ export default function About() {
           <div className="flex flex-wrap -mx-4  text-center">
             <div className="sm:w-1/2 px-4">
               <div className="rounded-lg h-96 overflow-hidden">
-                <img alt="content" className="object-cover object-center h-full w-full" src="/premises/Uttara.jpg"/>
+                <img alt="content" className="object-cover object-center h-full w-full" src="/premises/Uttara.webp"/>
               </div>
               <h2 className="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">Uttara Branch</h2>
             </div>
             <div className="sm:w-1/2 px-4">
               <div className="rounded-lg h-96 overflow-hidden">
-                <img alt="content" className="object-cover object-center h-full w-full" src="/premises/Gulshan.jpg"/>
+                <img alt="content" className="object-cover object-center h-full w-full" src="/premises/Gulshan.webp"/>
               </div>
               <h2 className="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">Gulshan Branch</h2>
             </div>
@@ -65,7 +65,7 @@ export default function About() {
             <h1 className="font-medium title-font mb-4 text-gray-900 tracking-widest text-center pt-10 text-3xl ">Our founders</h1>
       <div className="flex-wrap items-center container mx-auto flex px-5 py-24 md:flex-row flex-col">
         <div className="lg:flex grow-0 shrink-0 basis-auto lg:w-6/12 xl:w-4/12">
-          <img src="/Team/Nazneen.png" alt="Trendy Pants and Shoes"
+          <img src="/Team/Nazneen.webp" alt="Trendy Pants and Shoes"
             className="w-full rounded-t-lg lg:rounded-tr-none lg:rounded-bl-lg" />
         </div>
         <div className="grow-0 shrink-0 basis-auto w-full lg:w-6/12 xl:w-8/12">
@@ -91,7 +91,7 @@ Economics from University of Dhaka.
     <div className="block rounded-lg shadow-lg bg-white">
       <div className="flex-wrap items-center container mx-auto flex px-5 py-24 md:flex-row flex-col">
         <div className="lg:flex grow-0 shrink-0 basis-auto lg:w-6/12 xl:w-4/12">
-          <img src="/Team/Mahmooda.png" alt="Trendy Pants and Shoes"
+          <img src="/Team/Mahmooda.webp" alt="Trendy Pants and Shoes"
             className="w-full rounded-t-lg lg:rounded-tr-none lg:rounded-bl-lg" />
         </div>
         <div className="grow-0 shrink-0 basis-auto w-full lg:w-6/12 xl:w-8/12">

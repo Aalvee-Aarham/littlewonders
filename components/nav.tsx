@@ -60,10 +60,10 @@ function Nav() {
       <a className="nav-link text-gray-500 hover:text-gray-700 focus:text-gray-700 p-0" href="/contact">Contact</a>
     </li>
     <li className="nav-item p-2">
-      <a className="nav-link text-gray-500 hover:text-gray-700 focus:text-gray-700 p-0" href="/our-program">our program</a>
+      <a className="nav-link text-gray-500 hover:text-gray-700 focus:text-gray-700 p-0" href="/our-program">Our program</a>
     </li>
     <li className="nav-item p-2">
-      <a className="nav-link text-gray-500 hover:text-gray-700 focus:text-gray-700 p-0" href="/admission">admission</a>
+      <a className="nav-link text-gray-500 hover:text-gray-700 focus:text-gray-700 p-0" href="/admission">Admission</a>
     </li>
     <li className="nav-item p-2">
       <a className="nav-link text-gray-500 hover:text-gray-700 focus:text-gray-700 p-0" href="/about-us">About-us</a>

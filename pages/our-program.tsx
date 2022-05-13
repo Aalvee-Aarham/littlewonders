@@ -50,24 +50,24 @@ export default function Feature(){
       Stages
     </h2>
   </div>
-  <div className="grid gap-4 row-gap-5 sm:grid-cols-2 lg:grid-cols-4">
+  <div className="grid gap-4 row-gap-5 text-white sm:grid-cols-2 lg:grid-cols-4">
     <div className="flex flex-col justify-between p-5 ">
-    <Image height={192} width={288} layout="responsive" alt="content" className="object-cover object-center rounded-3xl h-44 w-auto" src="/Adjustment/adjustment (1).JPG"/>
+    <Image height={192} width={288} layout="responsive" alt="content" className="object-cover object-center rounded-3xl h-44 w-auto" src="/Adjustment/adjustment (1).webp"/>
 
       <p className="py-2 font-semibold text-center">Adjustment</p>
     </div>
     <div className="flex flex-col justify-between p-5 ">
-    <Image height={192} width={288} layout="responsive" alt="content" className="object-cover object-center rounded-3xl h-44 w-auto" src="/Adjustment/adjustment (2).JPG"/>
+    <Image height={192} width={288} layout="responsive" alt="content" className="object-cover object-center rounded-3xl h-44 w-auto" src="/Adjustment/adjustment (2).webp"/>
 
       <p className="py-2 font-semibold text-center">Begginers</p>
     </div>
     <div className="flex flex-col justify-between p-5 ">
-    <Image height={192} width={288} layout="responsive" alt="content" className="object-cover object-center rounded-3xl h-44 w-auto" src="/Adjustment/adjustment (3).JPG"/>
+    <Image height={192} width={288} layout="responsive" alt="content" className="object-cover object-center rounded-3xl h-44 w-auto" src="/Adjustment/adjustment (3).webp"/>
 
       <p className="py-2 font-semibold text-center">Advance</p>
     </div>
     <div className="flex flex-col justify-between p-5 ">
-    <Image height={192} width={288} layout="responsive" alt="content" className="object-cover object-center rounded-3xl h-44 w-auto" src="/Adjustment/adjustment (4).JPG"/>
+    <Image height={192} width={288} layout="responsive" alt="content" className="object-cover object-center rounded-3xl h-44 w-auto" src="/Adjustment/adjustment (4).webp"/>
 
     <p className="py-2 font-semibold text-center">School Readiness</p>
     </div>
@@ -115,34 +115,34 @@ export default function Feature(){
       <section className="text-gray-600  body-font">
   <div className="container flex items-center flex-col px-5 py-24 mx-auto">
     <div className="flex flex-wrap w-full mb-20 flex-col items-center text-center">
-      <h1 className="sm:text-3xl text-6xl font-medium title-font mb-2 text-gray-100">After school program</h1>
+      <h1 className="sm:text-3xl text-3xl font-medium title-font mb-2 text-gray-100">After school program</h1>
     </div>
-<div className="flex text-white items-center justify-center lg:w-4/5 flex-wrap -m-4">
+<div className="flex text-white text-xl items-center justify-center lg:w-4/5 flex-wrap -m-4">
 
-      <div className=" md:w-1/2 p-4">
+      <div className=" md:w-1/2 w-full p-4">
       <div className="flex flex-col justify-between p-5 ">
-          <Image height={256} width={512} layout="responsive" alt="content" className="object-cover object-center rounded-3xl h-auto w-auto" src="/after school/afterschool (1).JPG"/>
+          <Image height={256} width={512} layout="responsive" alt="content" className="object-cover object-center rounded-3xl h-auto w-auto" src="/after school/afterschool (1).webp"/>
 
             <p className="py-2 text-center">Intensive school support program</p>
           </div>
       </div>
-      <div className=" md:w-1/2 p-4">
+      <div className=" md:w-1/2 w-full p-4">
       <div className="flex flex-col justify-between p-5 ">
-          <Image height={256} width={512} layout="responsive" alt="content" className="object-cover object-center rounded-3xl h-auto  w-auto" src="/after school/afterschool (2).JPG"/>
+          <Image height={256} width={512} layout="responsive" alt="content" className="object-cover object-center rounded-3xl h-auto  w-auto" src="/after school/afterschool (2).webp"/>
 
             <p className="py-2 text-center">piano</p>
           </div>
       </div>
-      <div className=" md:w-1/2 p-4">
+      <div className=" md:w-1/2 w-full p-4">
       <div className="flex flex-col justify-between p-5 ">
-          <Image height={256} width={512} layout="responsive" alt="content" className="object-cover object-center rounded-3xl h-auto w-auto" src="/after school/afterschool (3).JPG"/>
+          <Image height={256} width={512} layout="responsive" alt="content" className="object-cover object-center rounded-3xl h-auto w-auto" src="/after school/afterschool (3).webp"/>
 
             <p className="py-2 text-center">Home management program</p>
           </div>
       </div>
-      <div className=" md:w-1/2 p-4">
+      <div className=" md:w-1/2 w-full p-4">
       <div className="flex flex-col justify-between p-5 ">
-          <Image height={256} width={512} layout="responsive" alt="content" className="object-cover object-center rounded-3xl h-auto  w-auto" src="/after school/afterschool (4).JPG"/>
+          <Image height={256} width={512} layout="responsive" alt="content" className="object-cover object-center rounded-3xl h-auto  w-auto" src="/after school/afterschool (4).webp"/>
 
             <p className="py-2 text-center">Karate</p>
           </div>
@@ -166,47 +166,47 @@ export default function Feature(){
       <section className="text-gray-100 body-font">
   <div className="container px-5 py-24 mx-auto">
     <div className="flex flex-wrap w-full mb-20 flex-col items-center text-center">
-      <h1 className="sm:text-3xl text-6xl font-medium title-font mb-2 text-gray-100">Professionals Involved Providing Services</h1>
+      <h1 className="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-100">Professionals Involved Providing Services</h1>
     </div>
-    <div className="flex flex-wrap -m-4">
-    <div className="xl:w-1/3 md:w-1/2 p-4">
+    <div className="flex text-xl flex-wrap -m-4">
+    <div className="xl:w-1/3 w-full md:w-1/2 p-4">
     <div className="flex flex-col justify-between p-5 ">
-          <Image height={1080} width={1920} layout="responsive" alt="content" className="object-cover object-center rounded-3xl h-auto  w-auto" src="/proffessionals involved therapy session/therapysession (1).jpg"/>
+          <Image height={1080} width={1920} layout="responsive" alt="content" className="object-cover object-center rounded-3xl h-auto  w-auto" src="/proffessionals involved therapy session/therapysession (1).webp"/>
 
             <p className="py-2 text-center">Physio Therapy</p>
           </div>
       </div>
-    <div className="xl:w-1/3 md:w-1/2 p-4">
+    <div className="xl:w-1/3 w-full md:w-1/2 p-4">
     <div className="flex flex-col justify-between p-5 ">
-          <Image height={1080} width={1920} layout="responsive" alt="content" className="object-cover object-center rounded-3xl h-auto  w-auto" src="/proffessionals involved therapy session/therapysession (2).jpg"/>
+          <Image height={1080} width={1920} layout="responsive" alt="content" className="object-cover object-center rounded-3xl h-auto  w-auto" src="/proffessionals involved therapy session/therapysession (2).webp"/>
 
             <p className="py-2 text-center">Psycho Therapy</p>
           </div>
       </div>
-    <div className="xl:w-1/3 md:w-1/2 p-4">
+    <div className="xl:w-1/3 w-full md:w-1/2 p-4">
     <div className="flex flex-col justify-between p-5 ">
-          <Image height={1080} width={1920} layout="responsive" alt="content" className="object-cover object-center rounded-3xl h-auto  w-auto" src="/proffessionals involved therapy session/therapysession (3).jpg"/>
+          <Image height={1080} width={1920} layout="responsive" alt="content" className="object-cover object-center rounded-3xl h-auto  w-auto" src="/proffessionals involved therapy session/therapysession (3).webp"/>
 
             <p className="py-2 text-center">Piano</p>
           </div>
       </div>
-    <div className="xl:w-1/3 md:w-1/2 p-4">
+    <div className="xl:w-1/3 w-full md:w-1/2 p-4">
     <div className="flex flex-col justify-between p-5 ">
-          <Image height={1080} width={1920} layout="responsive" alt="content" className="object-cover object-center rounded-3xl h-auto  w-auto" src="/proffessionals involved therapy session/therapysession (4).jpg"/>
+          <Image height={1080} width={1920} layout="responsive" alt="content" className="object-cover object-center rounded-3xl h-auto  w-auto" src="/proffessionals involved therapy session/therapysession (4).webp"/>
 
             <p className="py-2 text-center">Speech Therapy</p>
           </div>
       </div>
-    <div className="xl:w-1/3 md:w-1/2 p-4">
+    <div className="xl:w-1/3 w-full md:w-1/2 p-4">
     <div className="flex flex-col justify-between p-5 ">
-          <Image height={1080} width={1920} layout="responsive" alt="content" className="object-cover object-center rounded-3xl h-auto  w-auto" src="/proffessionals involved therapy session/therapysession (5).jpg"/>
+          <Image height={1080} width={1920} layout="responsive" alt="content" className="object-cover object-center rounded-3xl h-auto  w-auto" src="/proffessionals involved therapy session/therapysession (5).webp"/>
 
             <p className="py-2 text-center">Home management</p>
           </div>
       </div>
-    <div className="xl:w-1/3 md:w-1/2 p-4">
+    <div className="xl:w-1/3 w-full md:w-1/2 p-4">
     <div className="flex flex-col justify-between p-5 ">
-          <Image height={1080} width={1920} layout="responsive" alt="content" className="object-cover object-center rounded-3xl h-auto  w-auto" src="/proffessionals involved therapy session/therapysession (6).jpg"/>
+          <Image height={1080} width={1920} layout="responsive" alt="content" className="object-cover object-center rounded-3xl h-auto  w-auto" src="/proffessionals involved therapy session/therapysession (6).webp"/>
 
             <p className="py-2 text-center">Karate</p>
           </div>
