@@ -2,24 +2,12 @@ import Image from "next/image";
 
 export const Banner = (prop: any) => {
     return (
-        <div className="relative">
-    <Image
-      layout="fill"
-      className="object-center  object-cover pointer-events-none"
-      src="/banner.webp"
-      alt="hero image"
-    />
-   <div className="relative bg-black bg-opacity-50 z-1">
-
-      <div className="">
-        <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-                <h2 className="max-w-lg mb-6 font-sans text-3xl text-center font-bold leading-none tracking-tight text-white sm:text-4xl md:mx-auto">
-                  {prop.title}
-                </h2>
-        </div>
+      <div className="w-full h-60 bg-cover bg-bannertest bg-center" >
+      <div className="flex items-center justify-center h-full w-full bg-gray-900 bg-opacity-60">
+          <div className="text-center">
+              <h1 className="text-blue-400 text-4xl font-semibold uppercase md:text-5xl"> {prop.title}</h1>
+          </div>
       </div>
-   </div>
-
-      </div>
+  </div>
     );
   };

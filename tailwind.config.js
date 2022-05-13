@@ -22,7 +22,7 @@ module.exports = {
       },
       backgroundImage: {
         'toy': "url('/toy-bg.svg')",
-        'bannertest': "url('/banner.jpg')",
+        'bannertest': "url('/Banner.webp')",
       }
     },
   },
