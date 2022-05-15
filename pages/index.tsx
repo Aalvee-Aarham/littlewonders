@@ -52,11 +52,11 @@ export default function Home() {
         <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
           style={{backgroundColor: "rgba(0, 0, 0, 0.4)"}}>
           <div className="flex justify-center items-end h-full">
-            <div className="text- text-white px-6 py-6 md:py-0 md:px-12 max-w-[800px]">
-              <h2 className="text-4xl  font-bold tracking-tight leading-tight mb-6">
-                Little Wonders  <span className='text-blue-600 text-2xl  p-0 m-0'>play and learn</span>
+            <div className="text- text-white  px-6 py-6 md:py-0 md:px-12 max-w-[800px]">
+              <h2 className="text-2xl font-sans font-bold tracking-tight leading-tight mb-6">
+                Little Wonders  <span className='text-blue-600 text-base'>play and learn</span>
               </h2>
-              <strong className="mt-4 font-bold text-sm text-gray-100 dark:text-gray-400">we aim at success by creating skllls necessary for kids
+              <strong className="mt-4 font-bold text-sm leading-3 text-white dark:text-gray-400">we aim at success by creating skllls necessary for kids
 to enrich & empower in studies & sports</strong>
             </div>
           </div>
@@ -72,7 +72,7 @@ to enrich & empower in studies & sports</strong>
     <div className="lg:w-2/6 relative md:w-3/6 w-5/6 mb-10">
     <Image width="720" height={600} className="lg:w-2/6 md:w-3/6 rounded-2xl w-5/6 mb-10" alt="hero" src="/mission.webp"/>
    </div>
-   <p className='text-gray-700 px-6 text-2xl'>At Little wonders, our mission consists of providing a warm and nurturing environment where children feel safe. Our Preschool offers various activities that are specifically designed to encourage each child’s growth. Through cooperative play and creative activities, kids reach their social, emotional and physical milestones naturally and with ease.</p>
+   <p className='text-gray-700 px-6 text-base sm:text-2xl'>At Little wonders, our mission consists of providing a warm and nurturing environment where children feel safe. Our Preschool offers various activities that are specifically designed to encourage each child’s growth. Through cooperative play and creative activities, kids reach their social, emotional and physical milestones naturally and with ease.</p>
   </div>
 </section>
       <Carousel/>

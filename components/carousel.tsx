@@ -8,7 +8,7 @@ export default function Carousel() {
           <script src="node_modules/tw-elements/dist/js/index.min.js"></script>
 
     <div className="flex flex-col text-center w-full mb-10">
-      <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">See Our gallery</h1>
+      <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-black">See Our gallery</h1>
     </div>
          <div id="carouselExampleCaptions" className="carousel slide relative" data-bs-ride="carousel">
   <div className="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
