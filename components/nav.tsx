@@ -18,7 +18,7 @@ function Nav() {
   shadow-lg
   navbar navbar-expand-lg navbar-light
   ">
-  <div className="container-fluid w-full flex flex-row-reverse flex-wrap items-center justify-between px-6">
+  <div className="container-fluid w-full md:flex-row flex-row-reverse flex flex-wrap items-center justify-between px-6">
   <button className="
       navbar-toggler
       text-gray-500
@@ -50,6 +50,7 @@ function Nav() {
         lg:mt-0
         mr-1
       " href="#">
+
   </a></div>
     <div>
     <ul className="navbar-nav flex flex-col pl-0 list-style-none mr-auto">
