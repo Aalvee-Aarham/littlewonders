@@ -18,7 +18,7 @@ function Nav() {
   shadow-lg
   navbar navbar-expand-lg navbar-light
   ">
-  <div className="container-fluid w-full flex flex-wrap items-center justify-between px-6">
+  <div className="container-fluid w-full flex flex-row-reverse flex-wrap items-center justify-between px-6">
   <button className="
       navbar-toggler
       text-gray-500
@@ -37,6 +37,8 @@ function Nav() {
     </path>
   </svg>
   </button>
+  <Image className="text-center" height="50" width="100" layout="fixed" src="/whitelogo.svg"  alt=""
+      loading="lazy" />
   <div className="collapse navbar-collapse flex flex-col lg:flex-row justify-between flex-grow items-center" id="navbarSupportedContent">
     <div> <a className="
         flex
@@ -48,8 +50,6 @@ function Nav() {
         lg:mt-0
         mr-1
       " href="#">
-    <Image className="" height="50" width="100" layout="fixed" src="/whitelogo.svg"  alt=""
-      loading="lazy" />
   </a></div>
     <div>
     <ul className="navbar-nav flex flex-col pl-0 list-style-none mr-auto">

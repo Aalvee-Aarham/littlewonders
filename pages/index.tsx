@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import  Navhero  from '../components/nav-hero'
+import Nav from '../components/nav'
 import Hero from '../components/hero'
 import Carousel from '../components/carousel'
 import Footer from '../components/footer'
@@ -40,18 +41,29 @@ export default function Home() {
    </div>
 
       </div>
-    <div className="sm:hidden  relative">
-    <Image
-      layout="fill"
-      className="object-center  object-cover pointer-events-none"
-      src="/hero-mobile.webp"
-      loading='eager'
-      alt="hero image"
-    />
-   <div className="relative bg-black bg-opacity-60 z-1">
-      <Navhero/>
-      <Hero />
-   </div>
+    <div className="sm:hidden  ">
+      <Nav/>
+    <div className=" sm:hidden relative">
+    <div className=" bg-no-repeat bg-cover" style=
+            {{backgroundPosition: "50%",
+            backgroundImage: "url('/hero-mobile.webp')",
+            height: "500px"}}
+            >
+        <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
+          style={{backgroundColor: "rgba(0, 0, 0, 0.4)"}}>
+          <div className="flex justify-center items-end h-full">
+            <div className="text- text-white px-6 py-6 md:py-0 md:px-12 max-w-[800px]">
+              <h2 className="text-4xl  font-bold tracking-tight leading-tight mb-6">
+                Little Wonders  <span className='text-blue-600 text-2xl  p-0 m-0'>play and learn</span>
+              </h2>
+              <strong className="mt-4 font-bold text-sm text-gray-100 dark:text-gray-400">we aim at success by creating skllls necessary for kids
+to enrich & empower in studies & sports</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
 
       </div>
       <section className="text-gray-600 body-font">
