@@ -129,7 +129,7 @@ export default function Contact() {
                 Phone number
               </h6>
               <p className="text-sm text-gray-900">01746503232</p>
-\our-program              <p className="text-sm text-gray-900">0248950214</p>
+             <p className="text-sm text-gray-900">0248950214</p>
               <hr className="w-full my-6 border-gray-300" />
             </div>
           </div>
