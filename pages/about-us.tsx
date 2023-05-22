@@ -13,6 +13,7 @@ export default function About() {
       <>
               <Head>
           <title>About Us</title>
+          <meta name='description' content='Little Wonders play & learn is an early learning center with separate hours for regular preschool and inclusive preschool as well as after school programs offered for children aged between 2 to 6 years old'/>
           <link rel="icon" href="/whitelogo.svg" />
           
         </Head>
@@ -24,30 +25,12 @@ export default function About() {
   
   <section className="mb-32 block rounded-lg shadow-lg bg-white text-gray-800">
     <h1 className="font-medium title-font mb-4 text-gray-900 tracking-widest text-center py-10 text-3xl ">About Little Wonders</h1>
-  <section className="text-gray-600 body-font">
-        <div className="container px-5 pb-10 mx-auto">
-          <div className="flex flex-wrap -mx-4  text-center">
-            <div className="sm:w-1/2 px-4">
-              <div className="rounded-lg h-96 overflow-hidden">
-                <img alt="content" className="object-cover object-center h-full w-full" src="/premises/Uttara.webp"/>
-              </div>
-              <h2 className="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">Uttara Branch</h2>
-            </div>
-            <div className="sm:w-1/2 px-4">
-              <div className="rounded-lg h-96 overflow-hidden">
-                <img alt="content" className="object-cover object-center h-full w-full" src="/premises/Gulshan.webp"/>
-              </div>
-              <h2 className="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">Gulshan Branch</h2>
-            </div>
 
-          </div>
-        </div>
-      </section>
 
 
 
     <div className="text-gray-500 text-lg px-6 py-6 ">
-    <p>Little Wonders Play &amp; Learn Center offers quality preschool program with unique ambience and curriculum where children of age 2-6 years get the opportunity to develop learning abilities through play based approach which parents often find difficult to provide at home.</p>
+    <p>Little Wonders Play &amp; Learn Center offers quality preschool program with unique ambience and curriculum where children of age 2-6 years get the opportunity to develop learning abilities through play based approach.</p>
 
 <p>Development during early childhood stage is so important that they cannot be left to chance; quality interventions</p>
 
@@ -63,24 +46,34 @@ export default function About() {
   <section className="mb-32 text-gray-800">
     <div className="block rounded-lg shadow-lg bg-white">
             <h1 className="font-medium title-font mb-4 text-gray-900 tracking-widest text-center pt-10 text-3xl ">Our founders</h1>
-      <div className="flex-wrap items-center container mx-auto flex px-5 py-24 md:flex-row flex-col">
+      <div className="flex-wrap items-center container mx-auto flex px-5 py-12 md:flex-row flex-col">
         <div className="lg:flex grow-0 shrink-0 basis-auto lg:w-6/12 xl:w-4/12">
           <img src="/Team/Nazneen.webp" alt="Trendy Pants and Shoes"
             className="w-full rounded-t-lg lg:rounded-tr-none lg:rounded-bl-lg" />
         </div>
         <div className="grow-0 shrink-0 basis-auto w-full lg:w-6/12 xl:w-8/12">
-          <div className="px-6 py-12 md:px-12">
+          <div className="px-6 py-6 md:px-12">
             <h2 className="text-2xl font-bold mb-4">Nazneen Akhter Ahmed</h2>
             <p className="uppercase font-bold mb-6 flex items-center">
              Founder
             </p>
             <p className="text-gray-500 mb-6">
-            Nazneen Akhter Ahmed, an early childhood educator is one of the founders of Little Wonders Play & Learn Center. She completed her Post Graduation in Early Childhood Development from Brac University. She is also a Business Graduate, majoring Finance & Economics from North South University.
-            </p>
+            Ms. Nazneen Akhter Ahmed, an early childhood educator is the principal of Little Wonders play and learn
+center. She Completed her Post Graduation in Early Childhood Development from BRAC University. For
+the Year 2012 she has achieved Vice Chancellor&#39;s Gold Medal and Certificate for her highest distinction
+in MSECD from BRAC University. She completed Level 1ABA Therapist Training from ABIA Melbourne
+Australia. She is also a Business Graduate, majoring Finance &amp; Economics from North South University.            </p>
             <p className="text-gray-500">
-            Sanjana Jahangir, an early childhood educator has been involved in enrichment education for young learners since 2001. She is one of the pioneers who introduced
-FasTracKids Bangladesh, she edited a childhood development magazine for parents and teachers, named 'Families' and is also reputed for helping or counseling parents in raising their kids. She completed her Postgraduate Diploma in Early Childhood Development from BRAC University. Earlier, she completed her Honors and Masters in
-Economics from University of Dhaka.
+            <p className="text-gray-500 mb-6">
+            Ms. Ahmed is actively working with institution like BRAC and ICHD (Institute of Child And Human
+Development). Little Wonders is jointly working with ICHD in many early childhood projects. She runs a
+team of highly involved early childhood practitioners to organize preschool sessions, preschool play
+based curriculum, caregivers training manuals, daycare management process and positive parenting
+sessions and counseling.            </p>
+            With two loving kids and caring spouse she is now settled in Dhaka and prefers to promote early
+childhood development and inclusive education. Her professional commitment reflects her strong
+standpoint for early childhood education. In future she intends to develop inclusive preschool curriculum
+and carry on her researches and contribution in the field of ECD.
             </p>
           </div>
         </div>

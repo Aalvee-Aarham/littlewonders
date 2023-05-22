@@ -4,6 +4,9 @@ import Footer from '../components/footer'
 import { useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLocationDot,faPhone,faEnvelope} from '@fortawesome/free-solid-svg-icons';
+import Galleryuttara from '../components/gallaryuttara';
+import Gallerygulshan from '../components/gallarygulshan';
+
 
 import { solid, regular, brands } from '@fortawesome/fontawesome-svg-core/import.macro'
 import { Banner } from '../components/banner';
@@ -12,11 +15,18 @@ export default function Contact() {
   useEffect(() => {
     require('tw-elements');;
   }, []);
+  const numbers =[]
+  for (let i = 1; i < 7; i++) {
+    numbers.push(i);
+    
+  }
     return (
       <div className='bg-zinc-100'>
         <Nav/>
         <Head>
           <title>Contct Us</title>
+          <meta property='og:title' content='Contact Us'/>
+          <meta name='description' content='Contact us to learn more about our preschool programs and how we can help your child grow and learn. Our experienced teachers are dedicated to providing a safe and nurturing environment where children can thrive'/>
           <link rel="icon" href="/whitelogo.svg" />
           
         </Head>
@@ -94,7 +104,21 @@ export default function Contact() {
       
     </div>
     </div>
- 
+    <section className="block rounded-lg  bg-white text-gray-800">
+    <h1 className="font-medium title-font mb-4 text-gray-900 tracking-widest text-center py-10 text-3xl ">Images of Gulshan Branch</h1>
+    <section className="text-gray-600 body-font">
+  <div className="container lg:w-3/4 px-5 pb-10 mx-auto">
+
+    <div className="flex flex-wrap -m-1 md:-m-2">
+            {numbers.map(((num) => (
+            <Gallerygulshan number={num} key={num}/>
+          )))}
+  </div>
+
+    </div>
+    </section>
+  </section>
+
       </div>
         <div className="px-4  my-16 block rounded-lg shadow-lg bg-white  py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
       <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
@@ -159,6 +183,20 @@ export default function Contact() {
     </div>
     </div>
  
+    <section className="block rounded-lg  bg-white text-gray-800">
+    <h1 className="font-medium title-font mb-4 text-gray-900 tracking-widest text-center py-10 text-3xl ">Images of Uttara Branch</h1>
+    <section className="text-gray-600 body-font">
+  <div className="container lg:w-3/4 px-5 pb-10 mx-auto">
+
+    <div className="flex flex-wrap -m-1 md:-m-2">
+            {numbers.map(((num) => (
+            <Galleryuttara number={num} key={num}/>
+          )))}
+  </div>
+
+    </div>
+    </section>
+  </section>
       </div>
 
                     </div>

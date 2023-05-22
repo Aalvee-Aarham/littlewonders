@@ -14,7 +14,8 @@ export default function Feature(){
       <>
               <Head>
           <title>Our Program</title>
-          
+          <meta name='description' content='Our preschool offers play-based learning programs for children aged 2-6 years old that are designed to be both fun and educational.'/>
+
           <link rel="icon" href="/whitelogo.svg" />
           
         </Head>
@@ -168,55 +169,37 @@ export default function Feature(){
     <div className="flex flex-wrap w-full mb-20 flex-col items-center text-center">
       <h1 className="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-100">Professionals Involved Providing Services</h1>
     </div>
-    <div className="flex text-xl flex-wrap -m-4">
-    <div className="xl:w-1/3 w-full md:w-1/2 p-4">
-    <div className="flex flex-col justify-between p-5 ">
-          <Image height={1080} width={1920} layout="responsive" alt="content" className="object-cover object-center rounded-3xl h-auto  w-auto" src="/proffessionals involved therapy session/therapysession (1).webp"/>
-
-            <p className="py-2 text-center">Physio Therapy</p>
-          </div>
+    <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
+      <div className="p-2 sm:w-1/2 w-full">
+        <div className="p-6 shadow-2xl w-full h-full bg-white rounded-xl bg-opacity-20 backdrop-filter backdrop-blur-3xl max-w-sm">
+          
+          <span className="title-font font-medium">Occupational Therapy</span>
+        </div>
       </div>
-    <div className="xl:w-1/3 w-full md:w-1/2 p-4">
-    <div className="flex flex-col justify-between p-5 ">
-          <Image height={1080} width={1920} layout="responsive" alt="content" className="object-cover object-center rounded-3xl h-auto  w-auto" src="/proffessionals involved therapy session/therapysession (2).webp"/>
-
-            <p className="py-2 text-center">Psycho Therapy</p>
-          </div>
+      <div className="p-2 sm:w-1/2 w-full">
+        <div className="p-6 shadow-2xl w-full h-full bg-white rounded-xl bg-opacity-20 backdrop-filter backdrop-blur-3xl max-w-sm">
+          
+          <span className="title-font font-medium">Speech and Language Therapy</span>
+        </div>
       </div>
-    <div className="xl:w-1/3 w-full md:w-1/2 p-4">
-    <div className="flex flex-col justify-between p-5 ">
-          <Image height={1080} width={1920} layout="responsive" alt="content" className="object-cover object-center rounded-3xl h-auto  w-auto" src="/proffessionals involved therapy session/therapysession (3).webp"/>
-
-            <p className="py-2 text-center">Piano</p>
-          </div>
+ 
+      <div className="p-2 sm:w-1/2 w-full">
+        <div className="p-6 shadow-2xl w-full h-full bg-white rounded-xl bg-opacity-20 backdrop-filter backdrop-blur-3xl max-w-sm">
+          
+          <span className="title-font font-medium">Psycho Behaviour Therapy</span>
+        </div>
       </div>
-    <div className="xl:w-1/3 w-full md:w-1/2 p-4">
-    <div className="flex flex-col justify-between p-5 ">
-          <Image height={1080} width={1920} layout="responsive" alt="content" className="object-cover object-center rounded-3xl h-auto  w-auto" src="/proffessionals involved therapy session/therapysession (4).webp"/>
-
-            <p className="py-2 text-center">Speech Therapy</p>
-          </div>
+      <div className="p-2 sm:w-1/2 w-full">
+        <div className="p-6 shadow-2xl w-full h-full bg-white rounded-xl bg-opacity-20 backdrop-filter backdrop-blur-3xl max-w-sm">
+          
+          <span className="title-font font-medium">Physio Therapy</span>
+        </div>
       </div>
-    <div className="xl:w-1/3 w-full md:w-1/2 p-4">
-    <div className="flex flex-col justify-between p-5 ">
-          <Image height={1080} width={1920} layout="responsive" alt="content" className="object-cover object-center rounded-3xl h-auto  w-auto" src="/proffessionals involved therapy session/therapysession (5).webp"/>
-
-            <p className="py-2 text-center">Home management</p>
-          </div>
-      </div>
-    <div className="xl:w-1/3 w-full md:w-1/2 p-4">
-    <div className="flex flex-col justify-between p-5 ">
-          <Image height={1080} width={1920} layout="responsive" alt="content" className="object-cover object-center rounded-3xl h-auto  w-auto" src="/proffessionals involved therapy session/therapysession (6).webp"/>
-
-            <p className="py-2 text-center">Karate</p>
-          </div>
-      </div>
-
-
-  </div>
+    </div>
   </div>
 </section>
   </div>
+
   </div>
   <Footer/>
      </>

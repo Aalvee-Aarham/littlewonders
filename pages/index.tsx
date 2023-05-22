@@ -24,6 +24,8 @@ export default function Home() {
 
       <Head>
         <title>Little Wonders Play and Learn</title>
+        <meta name='description' content='Little Wonders play & learn is an early learning center with separate hours for regular preschool and inclusive preschool as well as after school programs offered for children aged between 2 to 6 years old'/>
+        <meta property='og:title' content='Little Wonders play & learn'/>
         <link rel="icon" href="/whitelogo.svg" />
         
       </Head>
@@ -81,14 +83,13 @@ to enrich & empower in studies & sports</strong>
 
     <div className="flex flex-wrap -m-1 md:-m-2">
             {numbers.map(((num) => (
-            <Galleryimage number={num} key={num}/>
+            <Galleryimage title="image" number={num} key={num}/>
           )))}
   </div>
 
     </div>
     </section>
     <Footer/>
-    
     </section>
   )
 }
