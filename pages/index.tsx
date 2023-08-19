@@ -70,11 +70,12 @@ to enrich & empower in studies & sports</strong>
       </div>
       <section className="text-gray-600 body-font">
   <div className="container mx-auto flex px-5 pb-10 items-center justify-center flex-col">
-      <h1 className="title-font sm:text-4xl text center text-3xl my-4 py-6 font-medium text-gray-900">Our mission</h1>
+      <h1 className="title-font sm:text-4xl text center text-3xl my-4 py-6 font-medium text-gray-900">Our mission & vission</h1>
     <div className="lg:w-2/6 relative md:w-3/6 w-5/6 mb-10">
     <Image width="720" height={600} className="lg:w-2/6 md:w-3/6 rounded-2xl w-5/6 mb-10" alt="hero" src="/mission.webp"/>
    </div>
-   <p className='text-gray-700 px-6 text-base sm:text-2xl'>At Little wonders, our mission consists of providing a warm and nurturing environment where children feel safe. Our Preschool offers various activities that are specifically designed to encourage each child’s growth. Through cooperative play and creative activities, kids reach their social, emotional and physical milestones naturally and with ease.</p>
+   <p className='text-gray-700 px-6 py-3 text-base sm:text-2xl'>We are here to provide individualized learning oppurtunity and school readiness curriculam for children with special need.</p>
+   <p className='text-gray-700 px-6 py 3 text-base sm:text-2xl'>Our vission is to establish inclusive learning opportunity for families and establish one stop childcare for families.</p>
   </div>
 </section>
       <Carousel/>
